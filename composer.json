@@ -1,36 +1,25 @@
 {
-    "name": "martingg88/laravel-ardent-mongodb",
-    "description": "Self-validating smart models for integration of Mongodb and Laravel 5's Eloquent ORM",
+    "name": "malith124/laravel-ardent-mongodb",
+    "description": "Self-validating smart models for integration of Mongodb and Laravel 10's Eloquent ORM",
     "keywords": ["validation", "laravel", "framework", "eloquent", "database", "sql", "mongodb", "orm", "activerecord", "active record"],
     "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
-          {
-            "name": "Martin",
-            "homepage": "http://business.gogoholi.com/",
-            "role": "Developer"
-        },
         {
-            "name": "Igor Santos",
-            "homepage": "http://igorsantos.com.br",
-            "email": "igorsantos07@gmail.com",
-            "role": "Maintainer"
-        },
-        {
-            "name": "Max Ehsan",
-            "role": "Original developer"
+            "name": "Malith",
+            "email": "malith124@gmail.com"
         }
     ],
     "support": {
         "issues": "https://github.com/martingg88/laravel-ardent-mongodb/issues"
     },
     "require": {
-        "illuminate/support": "~5.1",
-        "illuminate/database": "~5.1",
-        "illuminate/validation": "~5.1",
-        "illuminate/events": "~5.1",
-        "illuminate/hashing": "~5.1",
-        "jenssegers/mongodb": "^3.2"
+        "illuminate/support": "^10.0",
+        "illuminate/database": "^10.0",
+        "illuminate/validation": "^10.0",
+        "illuminate/events": "^10.0",
+        "illuminate/hashing": "^10.0",
+        "mongodb/laravel-mongodb": "^4.8"
     },
     "autoload": {
         "psr-4": {
