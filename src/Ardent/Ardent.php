@@ -2,8 +2,8 @@
 
 use Closure;
 
-use Jenssegers\Mongodb\Eloquent\Model;
-use Jenssegers\Mongodb\Query\Builder as JenssegersQueryBuilder;
+use MongoDB\Laravel\Eloquent\Model;
+use MongoDB\Laravel\Query\Builder as JenssegersQueryBuilder;
 use Illuminate\Database\Query\Builder as EloquentQueryBuilder;
 use Illuminate\Database\MySqlConnection;
 use Illuminate\Container\Container;
